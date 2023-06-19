@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sitejms1.master.cs" Inherits="JMS.Sitejms1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style type="text/css">
+        body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            background-color:antiquewhite;
+        }
+</style>
+    <title></title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+            
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div><center>
+            &nbsp;<asp:Image ID="Image1" runat="server" Height="60px" ImageUrl="~/images/super-gold.png" Width="69px" />
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large" ForeColor="#993366" Text="JMS JEWELERS"></asp:Label></center>
+        </div>
+        <div>
+        <center>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <asp:LinkButton ID="LinkBtnHome" runat="server" href="Homepage.aspx" ForeColor="#CC0066">|&nbsp;&nbsp;Home&nbsp;&nbsp;</asp:LinkButton>
+            <asp:LinkButton ID="LinkBtnAdminLogin" runat="server"  href="AdminLogin.aspx" ForeColor="#CC0066">|&nbsp;&nbsp;AdminLogin&nbsp;&nbsp;|&nbsp;&nbsp;</asp:LinkButton>
+            <asp:LinkButton ID="LinkBtnLogout" runat="server" href="Homepage.aspx" ForeColor="#CC0066">Logout&nbsp;&nbsp;|</asp:LinkButton>
+        </center>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+</body>
+    
+    
+
+</html>

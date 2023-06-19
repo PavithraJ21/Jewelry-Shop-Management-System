@@ -1,0 +1,72 @@
+﻿.div1 {
+    margin: 0;
+    padding: 0;
+    background-image: url('new_jewelgif1.gif');
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Times New Roman';
+}
+
+.modify {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+
+
+h2 {
+    top:10%;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    text-decoration:blink;
+}
+
+.lbldesignid, .lblprice {
+    font-weight: bold;
+    color: #fff;
+    font-size:20px;
+}
+
+.txtdesignid, .txtprice, .btnmodify {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.txtdesignid, .txtprice {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
+.btnmodify {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(89 49 0);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnmodify:hover {
+        background-color: rgb(0 0 0);
+    }
